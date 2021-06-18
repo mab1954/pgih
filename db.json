@@ -1,0 +1,697 @@
+{
+  "consultations": [
+    {
+      "prenom": "Abdou",
+      "nom": "BAH",
+      "sexe": "M",
+      "age": "22",
+      "id": 1
+    },
+    {
+      "prenom": "Abdoula",
+      "nom": "Ly",
+      "sexe": "F",
+      "age": "25",
+      "id": 2
+    },
+    {
+      "prenom": "Tooto",
+      "nom": "ATat",
+      "sexe": "M",
+      "age": "22",
+      "id": 3
+    }
+  ],
+  "actes": [
+    {
+      "id": "0",
+      "code": "ALT+145",
+      "libelle": "Séance individuelle d'entretien psychologique à visée de réadaptation cognitive",
+      "gestesComplementaires": [],
+      "modulateurs": [
+        {
+          "code": "ZV",
+          "libelle": "Réalisation de l'acte au lit du patient"
+        },
+        {
+          "code": "BN",
+          "libelle": "Nécessité de recours à un interprète"
+        }
+      ],
+      "favori": true
+    },
+    {
+      "id": "1",
+      "code": "GLR+074",
+      "libelle": "Séance d'entrainement des muscles inspiratoires avec dispositif résistif ou relaxateur de pression",
+      "gestesComplementaires": [
+        {
+          "code": "GLQ+175",
+          "libelle": "Mesure des volumes pulmonaires et des débits par spirométrie",
+          "gestesComplementaires": [],
+          "modulateurs": []
+        },
+        {
+          "code": "GLR+206",
+          "libelle": "Rééducation respiratoire par méthode instrumentale [spirométrie incitative]",
+          "gestesComplementaires": [],
+          "modulateurs": []
+        },
+        {
+          "code": "GLQ+043",
+          "libelle": "Mesures des pressions inspiratoires et expiratoires maximales",
+          "gestesComplementaires": [],
+          "modulateurs": []
+        }
+      ],
+      "modulateurs": [
+        {
+          "code": "BN",
+          "libelle": "Nécessité de recours à un interprète"
+        },
+        {
+          "code": "EZ",
+          "libelle": "Réalisation fractionnée de l'acte"
+        }
+      ],
+      "favori": true
+    },
+    {
+      "id": "2",
+      "code": "ZEM+168",
+      "libelle": "Adaptation secondaire de l'emboîture pour évolution morphologique du moignon de membre inférieur",
+      "gestesComplementaires": [],
+      "modulateurs": [
+        {
+          "code": "BN",
+          "libelle": "Nécessité de recours à un interprète"
+        }
+      ],
+      "favori": false
+    },
+    {
+      "id": "3",
+      "code": "ALT+044",
+      "libelle": "Entretien psychologique collectif",
+      "gestesComplementaires": [],
+      "modulateurs": [
+        {
+          "code": "BN",
+          "libelle": "Nécessité de recours à un interprète"
+        }
+      ],
+      "favori": false
+    },
+    {
+      "id": "4",
+      "code": "AZR+199",
+      "libelle": "Séance de rééducation des fonctions neuromusculaires pour mouvements anormaux",
+      "gestesComplementaires": [],
+      "modulateurs": [
+        {
+          "code": "BN",
+          "libelle": "Nécessité de recours à un interprète"
+        },
+        {
+          "code": "QM",
+          "libelle": "Réalisation de l'acte en piscine ou en balnéothérapie"
+        },
+        {
+          "code": "EZ",
+          "libelle": "Réalisation fractionnée de l'acte"
+        }
+      ],
+      "favori": false
+    },
+    {
+      "id": "5",
+      "code": "PEE+041",
+      "libelle": "Séance de verticalisation sans appareil dynamique",
+      "gestesComplementaires": [],
+      "modulateurs": [
+        {
+          "code": "BN",
+          "libelle": "Nécessité de recours à un interprète"
+        },
+        {
+          "code": "ZV",
+          "libelle": "Réalisation de l'acte au lit du patient"
+        }
+      ],
+      "favori": false
+    },
+    {
+      "id": "6",
+      "code": "GLQ+175",
+      "libelle": "Mesure des volumes pulmonaires et des débits par spirométrie",
+      "gestesComplementaires": [],
+      "modulateurs": [],
+      "favori": false
+    },
+    {
+      "id": "7",
+      "code": "GLR+206",
+      "libelle": "Rééducation respiratoire par méthode instrumentale [spirométrie incitative]",
+      "gestesComplementaires": [],
+      "modulateurs": [],
+      "favori": false
+    },
+    {
+      "id": "8",
+      "code": "GLQ+043",
+      "libelle": "Mesures des pressions inspiratoires et expiratoires maximales",
+      "gestesComplementaires": [],
+      "modulateurs": [],
+      "favori": true
+    },
+    {
+      "id": "9",
+      "code": "NKQ+069",
+      "libelle": "Évaluation de la marche sur parcours aménagé avec obstacles",
+      "gestesComplementaires": [],
+      "modulateurs": [
+        {
+          "code": "BN",
+          "libelle": "Nécessité de recours à un interprète"
+        }
+      ],
+      "favori": false
+    }
+  ],
+  "unitesFonctionnelles": [
+    {
+      "code": "1704",
+      "typeActivite": "04",
+      "libelle": "HOPITAL DE JOUR SEANCES"
+    },
+    {
+      "code": "1705",
+      "typeActivite": "03",
+      "libelle": "SSR POLYPATHOLOGIE HC"
+    },
+    {
+      "code": "1706",
+      "typeActivite": "03",
+      "libelle": "SSR POLYVALENT HC"
+    },
+    {
+      "code": "1707",
+      "typeActivite": "03",
+      "libelle": "SSR LOCOMOTEUR HC"
+    },
+    {
+      "code": "1708",
+      "typeActivite": "04",
+      "libelle": "SSR SEANCE HJ"
+    },
+    {
+      "code": "8033",
+      "typeActivite": "19",
+      "libelle": "SEANCE SSR"
+    }
+  ],
+  "categories": [
+    {
+      "code": "10",
+      "libelle": "MEDECIN"
+    },
+    {
+      "code": "21",
+      "libelle": "INFIRMIER"
+    },
+    {
+      "code": "22",
+      "libelle": "MASSEUR KINESITHERAPEUTE"
+    },
+    {
+      "code": "23",
+      "libelle": "PEDICURE - PODOLOGUE"
+    },
+    {
+      "code": "24",
+      "libelle": "ORTHOPHONISTE"
+    },
+    {
+      "code": "25",
+      "libelle": "ORTHOPTISTE"
+    },
+    {
+      "code": "26",
+      "libelle": "DIETETICIEN"
+    },
+    {
+      "code": "27",
+      "libelle": "ERGOTHERAPEUTE"
+    },
+    {
+      "code": "28",
+      "libelle": "PSYCHOMOTRICIEN"
+    },
+    {
+      "code": "29",
+      "libelle": "(NEURO) PSYCHOREEDUCATEUR"
+    },
+    {
+      "code": "30",
+      "libelle": "PSYCHOLOGUE"
+    },
+    {
+      "code": "31",
+      "libelle": "ORTHOPROTHESISTE"
+    },
+    {
+      "code": "32",
+      "libelle": "PODOORTHESISTE"
+    },
+    {
+      "code": "41",
+      "libelle": "MANIPULATEUR EN ELECTRORADIOLOGIE"
+    },
+    {
+      "code": "61",
+      "libelle": "EDUCATEUR SPECIALISE"
+    },
+    {
+      "code": "62",
+      "libelle": "ASSISTANT DE SERVICE SOCIAL"
+    },
+    {
+      "code": "63",
+      "libelle": "EDUCATEUR JEUNES ENFANTS"
+    },
+    {
+      "code": "64",
+      "libelle": "ANIMATEUR"
+    },
+    {
+      "code": "65",
+      "libelle": "MONITEUR ATELIER"
+    },
+    {
+      "code": "66",
+      "libelle": "MONITEUR EDUCATEUR"
+    },
+    {
+      "code": "67",
+      "libelle": "ENSEIGNANT GENERAL"
+    },
+    {
+      "code": "68",
+      "libelle": "INSTITUTEUR SPECIALISE"
+    },
+    {
+      "code": "69",
+      "libelle": "EDUCATEUR SPORTIF"
+    },
+    {
+      "code": "70",
+      "libelle": "ENSEIGNANT EN ACTIVITE PHYSIQUE ADAPTEE"
+    },
+    {
+      "code": "71",
+      "libelle": "ERGONOME"
+    },
+    {
+      "code": "72",
+      "libelle": "PSYCHOTECHNICIEN"
+    },
+    {
+      "code": "73",
+      "libelle": "CONSEILLER EN ECONOMIE SOCIALE ET FAMILIALE"
+    },
+    {
+      "code": "74",
+      "libelle": "DOCUMENTALISTE"
+    },
+    {
+      "code": "75",
+      "libelle": "MONITEUR AUTOECOLE"
+    },
+    {
+      "code": "76",
+      "libelle": "CHIROPRACTEUR OSTEOPATHE"
+    },
+    {
+      "code": "77",
+      "libelle": "SOCIO-ESTHETICIEN"
+    },
+    {
+      "code": "88",
+      "libelle": "AUTRE INTERVENANT"
+    }
+  ],
+  "venues": [
+    {
+      "id": 0,
+      "ipp": "154804",
+      "iep": "145204",
+      "nom": "BAH",
+      "prenom": "Abdoulaye",
+      "nomMarital": "",
+      "dateNaissance": "01/06/1992",
+      "sexe": "M",
+      "dateEntree": "12/01/2000",
+      "dateSortie": "12/01/2000",
+      "typeHospitalisation": "Soins SSR",
+      "favori": true
+    },
+    {
+      "id": 1,
+      "ipp": "154803",
+      "iep": "145201",
+      "nom": "DIALLO",
+      "prenom": "Boubacar",
+      "nomMarital": "",
+      "dateNaissance": "01/06/1992",
+      "sexe": "M",
+      "dateEntree": "12/01/2000",
+      "dateSortie": "12/01/2000",
+      "typeHospitalisation": "Soins SSR",
+      "favori": false
+    },
+    {
+      "id": 2,
+      "ipp": "154802",
+      "iep": "145202",
+      "nom": "SOW",
+      "prenom": "Ibrahima",
+      "nomMarital": "",
+      "dateNaissance": "01/06/1992",
+      "sexe": "M",
+      "dateEntree": "12/01/2000",
+      "dateSortie": "12/01/2000",
+      "typeHospitalisation": "Soins SSR",
+      "favori": true
+    },
+    {
+      "id": 3,
+      "ipp": "154801",
+      "iep": "145203",
+      "nom": "WANN",
+      "prenom": "Alpha",
+      "nomMarital": "",
+      "dateNaissance": "01/06/1992",
+      "sexe": "M",
+      "dateEntree": "12/01/2000",
+      "dateSortie": "12/01/2000",
+      "typeHospitalisation": "Soins SSR",
+      "favori": false
+    },
+    {
+      "id": 4,
+      "ipp": "154805",
+      "iep": "145204",
+      "nom": "DIALLO",
+      "prenom": "Assiatou",
+      "nomMarital": "",
+      "dateNaissance": "01/06/1992",
+      "sexe": "F",
+      "dateEntree": "12/01/2000",
+      "dateSortie": "12/01/2000",
+      "typeHospitalisation": "Soins SSR",
+      "favori": false
+    }
+  ],
+  "articles": [
+    {
+      "id": "0890786AR",
+      "titre": "Échographie des fractures de stress",
+      "auteurs": [
+        "S. Bianchi",
+        "D. Jacob"
+      ],
+      "grade": "",
+      "adresse": [
+        "CIM SA, cabinet imagerie médicale, route de Malagnou 40A, 1208 Genève, Suisse",
+        "IM2P, Ramsay GDS, hôpital privé Dijon Bourgogne, France"
+      ],
+      "resume": "Un examen précis des surfaces osseuses est essentiel dans de nombreuses explorations échographiques musculosquelettiques. Plusieurs articles rapportent la sémiologie échographique dans les fractures de stress des genoux, des jambes, des chevilles et des pieds. Les arguments fondamentaux en faveur d’une fracture de stress sont : (1) l’œdème des parties molles ; (2) l’épaississement hypoéchogène du périoste ; (3) l’hyperhémie focale des parties molles, du périoste et fréquemment au sein de la corticale osseuse ; (4) l’aspect normal des structures adjacentes. Le diagnostic échographique de fracture de stress nécessite une corrélation aux données cliniques, la sémiologie échographique étant aspécifique. Quand un diagnostic échographique de fracture de stress est suggéré, une attitude thérapeutique comportant repos et mise en décharge avec suivi clinique peut être proposée dans la plupart des cas. En cas de discordance avec la clinique ou d’évolution non favorable, une IRM doit être réalisée.",
+      "dateDeParution": "10/11/2018",
+      "motsCles": [
+        "Échographie",
+        "Fractures",
+        "Fractures par insuffisance",
+        "Fractures de fatigue"
+      ],
+      "description": "",
+      "like": 11,
+      "dislike": 4
+    },
+    {
+      "id": "0890787AR",
+      "titre": "La maladie de Crohn",
+      "auteurs": [],
+      "adresse": [
+        "45 rue Duranton, 75015 Paris, France"
+      ],
+      "resume": "Une corticorésistance chez un patient atteint de la maladie de Crohn induit l’instauration d’un traitement à base d’azathioprine afin de favoriser le maintien des rémissions. Le pharmacien doit insister sur l’importance de l’autosurveillance sous immunosuppresseur et le suivi de traitement. Il doit également évoquer les bienfaits des probiotiques pendant et en dehors des poussées.",
+      "dateDeParution": "07/11/2018",
+      "motsCles": [
+        "azathioprine",
+        "corticorésistance",
+        "immunosuppresseur",
+        "maladie de Crohn",
+        "poussée",
+        "rémission"
+      ],
+      "description": "",
+      "like": 124,
+      "dislike": 30
+    },
+    {
+      "id": "0890788AR",
+      "titre": "Principe de la vaccination",
+      "auteurs": [
+        "Aurore Blin"
+      ],
+      "grade": "Docteur en pharmacie",
+      "adresse": [
+        "45 rue Duranton, 75015 Paris, France"
+      ],
+      "resume": "La vaccination consiste à introduire, chez un individu sain, un produit biologique fabriqué à partir de virus ou bactéries. Le vaccin obtenu n’a pas la capacité d’entraîner la maladie mais conserve celle d’induire une réponse immunitaire. La vaccination s’appuie donc sur la propriété de mémoire du système immunitaire adaptatif et permet de développer une immunité à long terme contre les antigènes d’agents pathogènes spécifiques.",
+      "dateDeParution": "07/11/18",
+      "motsCles": [
+        "anticorps",
+        "antigène",
+        "immunité",
+        "lymphocyte",
+        "vaccin",
+        "vaccination"
+      ],
+      "description": "",
+      "like": 3,
+      "dislike": 4
+    },
+    {
+      "id": "0890789AR",
+      "titre": "Escarres et diabète",
+      "auteurs": [
+        "Valérie Battu"
+      ],
+      "grade": "Pharmacien orthopédiste",
+      "adresse": [
+        "5 rue Aristide-Maillol, 87350 Panazol, France"
+      ],
+      "resume": "Le diabète constitue un facteur de risque dans la constitution et/ou l’aggravation d’une escarre en raison d’une perte de la sensibilité liée à une hypovascularisation et une neuropathie périphérique entraînant un ralentissement de la cicatrisation. L’éducation du patient joue un rôle primordial en prévention. Une prise en charge rapide par des professionnels compétents s’impose lors de l’apparition de la moindre lésion ou de toute coloration anormale de la peau",
+      "dateDeParution": "07/10/2018",
+      "motsCles": [
+        "diabète",
+        "escarre",
+        "neuropathie diabétique",
+        "traitement"
+      ],
+      "description": "",
+      "like": 124,
+      "dislike": 300
+    },
+    {
+      "id": "0890790AR",
+      "titre": "Prise en charge anténatale en cas de rupture prématurée des membranes avant la viabilité fœtale. RPC Rupture prématurée des membranes avant terme CNGOF",
+      "auteurs": [],
+      "grade": "Docteur en pharmacie",
+      "adresse": [
+        "45 rue Duranton, 75015 Paris, France"
+      ],
+      "resume": "Les niveaux de preuve des travaux scientifiques sur la prise en charge des RPM préviables sont faibles ; aussi, un certain nombre des recommandations proposées ici sont-établis à partir d’accord professionnel par extension « raisonnable » des recommandations valables pour des âges gestationnels plus avancés.",
+      "dateDeParution": "07/09/2018",
+      "motsCles": [
+        "prématurée",
+        "foetus"
+      ],
+      "description": "",
+      "like": 14,
+      "dislike": 4
+    },
+    {
+      "id": "0890791AR",
+      "titre": "Carcinome hépatocellulaire",
+      "auteurs": [
+        "C. Fron",
+        "J.-F. Blanc"
+      ],
+      "grade": "Docteur en pharmacie",
+      "adresse": [
+        "Service d'hépato-gastro-entérologie et d'oncologie digestive, Hôpital Haut-Lévêque, Pôle ADEN, Centre médico-chirurgical Magellan, CHU de Bordeaux, avenue Magellan, 33600 Pessac, France",
+        "Inserm U1053, BaRITOn, Université Victor Segalen, 146 rue Léo-Saignat, 33000 Bordeaux, France"
+      ],
+      "resume": "Le carcinome hépatocellulaire (CHC) représente 85 à 90 % des tumeurs hépatiques. À l'échelon mondial, c'est le sixième cancer le plus fréquent en termes d'incidence, mais du fait de son mauvais pronostic, il représente le deuxième taux de mortalité par cancer. L'incidence du CHC varie selon les régions géographiques en raison de la variation de prévalence des principaux facteurs de risque, tels que le virus des hépatites C et B (VHC, VHB). Dans les pays développés en raison de l'épidémie d'obésité et de diabète, responsables de la stéatohépatite non alcoolique (NASH), l'incidence du CHC augmente. Il est recommandé de dépister le CHC par échographie hépatique semestrielle chez tous les patients porteurs d'une cirrhose. La confirmation diagnostique repose sur l'analyse histologique d'un fragment tumoral obtenu par biopsie. Le diagnostic non invasif (critères radiologiques) est une option. La décision thérapeutique dépend de : l'état général du patient, de l'extension de la tumeur et de l'état du foie sous-jacent et nécessite une discussion en réunion de concertation pluridisciplinaire (RCP) « spécialisée ». Les traitements curatifs sont la transplantation hépatique, la résection chirurgicale et la destruction percutanée. Au stade palliatif, les traitements reposent sur la chimioembolisation artérielle et sur le sorafénib chez les patients présentant un CHC avancé sur cirrhose compensée. En cas de cirrhose décompensée - hors indication de transplantation hépatique - ou d'altération de l'état général, les soins de confort sont préconisés. Malgré ces thérapeutiques, le pronostic du CHC reste mauvais avec 4 % de survie à dix ans.",
+      "dateDeParution": "01/06/2017",
+      "motsCles": [
+        "Carcinome hépatocellulaire (CHC)",
+        "Cirrhose",
+        "Syndrome métabolique",
+        "Hépatite virale chronique",
+        "Transplantation hépatique",
+        "Chimioembolisation",
+        "Sorafénib"
+      ],
+      "description": "",
+      "like": 124,
+      "dislike": 300
+    },
+    {
+      "id": "0890792AR",
+      "titre": "Épidémiologie de la carie",
+      "auteurs": [
+        "P. Tramini"
+      ],
+      "grade": "Maître de conférences des Universités, praticien hospitalier, D. Bourgeois b : Professeur des Universités, praticien hospitalier",
+      "adresse": [
+        "Service de santé publique, UFR d'odontologie, 545, avenue du Professeur-Jean-Louis-Viala, 34193 Montpellier cedex 5, France",
+        "Service de santé publique, UFR d'odontologie, 11, rue Guillaume-Paradin, 69372 Lyon cedex 8, France"
+      ],
+      "resume": "La carie dentaire et ses conséquences sont encore les causes principales de la perte des dents dans les pays industrialisés. L'abord épidémiologique de la carie est indispensable pour progresser dans la compréhension de cette pathologie. De nombreux indices sont disponibles pour mesurer l'atteinte carieuse dans les populations, mais le plus ancien et le plus souvent utilisé est l'indice CAOD, recommandé aussi par l'Organisation mondiale de la santé. Le pourcentage de sujets indemnes de carie, quoique corrélé au CAOD, est également utilisé de manière universelle pour décrire l'état de santé orale. La grande disparité entre les pays au niveau de la collecte des données épidémiologiques sur la carie rend difficiles les comparaisons au niveau international. Après des niveaux très bas aux temps préhistoriques, on a constaté une augmentation nette de la prévalence carieuse dès que la consommation du sucre s'est répandue dans les populations. Elle a ensuite sensiblement diminué au cours des trente dernières années, à la suite de diverses mesures préventives mises en place dans les pays respectifs. Actuellement, l'expérience carieuse observée chez les enfants de 12 ans dans les pays d'Europe semble converger en moyenne vers une valeur de CAOD = 1, et ce quelle que soit l'organisation du système de santé du pays concerné, son financement ou sa politique de prévention. La carie atteint une minorité de sujets, appartenant souvent à des populations désavantagées et socialement marginalisées, qui concentrent un grand nombre de lésions en échappant encore aux mesures préventives. La mise en place d'antennes épidémiologiques destinées à fournir des statistiques régulièrement à jour, comme cela se rencontre dans certains pays, pourrait contribuer à une estimation précise de la santé buccodentaire en France. Ceci afin d'améliorer la production d'informations de qualité qui doit avoir un impact réel sur l'aide à la décision.",
+      "dateDeParution": "02/27/2018",
+      "motsCles": [
+        "Carie",
+        "Indice CAOD",
+        "Épidémiologie",
+        "Lois de distribution",
+        "Populations",
+        "Prévalence"
+      ],
+      "description": "",
+      "like": 4,
+      "dislike": 3
+    },
+    {
+      "id": "0890793AR",
+      "titre": "Vaccination contre l'hépatite B",
+      "auteurs": [
+        "F. Denis ",
+        "P. Roingeard"
+      ],
+      "grade": "Docteur en pharmacie",
+      "adresse": [
+        "Service de bactériologie-virologie-hygiène, CHU Dupuytren, 2, avenue Martin-Luther-King, 87042 Limoges, France",
+        "Service de biologie cellulaire, CHU Bretonneau, 10, boulevard Tonnelé, 37032 Tours, France"
+      ],
+      "resume": "L'hépatite B constitue une cible majeure dans la lutte contre les maladies infectieuses au niveau mondial. On estime que deux milliards d'habitants de la planète sont infectés par le virus de l'hépatite B au cours de leur vie, que 240 millions sont porteurs chroniques (dont 2,6 millions co-infectés par le virus du syndrome d'immunodéficience acquise [sida]). Le virus des hépatites B serait responsable annuellement de plus de 600 000 décès, ce virus va tuer plus de dix millions de personnes entre 2015 et 2030. En 2015, les hépatites tuent plus que le sida, le paludisme ou la tuberculose et les décès liés aux virus B et C vont croissants, contrairement aux décès imputables à ces trois autres maladies. Aussi, une stratégie mondiale visant à éliminer à terme les hépatites virales (horizon 2030) a été définie, reposant essentiellement sur la prévention, notamment sur la vaccination contre l'hépatite B des nourrissons, avec comme objectif une couverture vaccinale de 90 % et une prévention de la transmission mère-enfant (passant de 38 % en 2015 à 90 % en 2030). Les vaccins sont remarquablement efficaces dans la prévention des infections (plus de 90 %) quel que soit le mode de contamination dans la prévention des hépatites B aiguës (y compris fulminantes), chroniques et des hépatocarcinomes. Les vaccins sont très immunogènes, très bien tolérés, confèrent une immunité durable, le plus souvent à vie, et peuvent être utilisés en postexposition. Mais, en France, avec 280 000 porteurs chroniques et un quart de siècle après l'autorisation de mise sur le marché (AMM), on reste avec des taux de couverture vaccinale satisfaisants pour les professionnels de santé, restant modestes pour les nourrissons (77 %), désastreux chez les adolescents (32 %) et chez les immunodéprimés ou les usagers de drogues, etc. du fait de polémiques, de rumeurs qui ont entamé injustement la confiance des usagers et du corps médical vis-à-vis de ce vaccin qui a été innocenté.",
+      "dateDeParution": "24/04/2017",
+      "motsCles": [
+        "Hépatite B",
+        "Vaccination",
+        "Couverture vaccinale",
+        "Mémoire immunitaire",
+        "Tolérance"
+      ],
+      "description": "",
+      "like": 4,
+      "dislike": 3
+    }
+  ],
+  "infos": [
+    {
+      "id": "1611180NS",
+      "titre": "UN(E) COORDINATEUR/-TRICE DES PROJETS RAM et URGENCES",
+      "dateDeParution": "01/10/2018",
+      "description": "Expertise France déploie depuis 2015 en concertation étroite avec les autorités sanitaires"
+    },
+    {
+      "id": "1611181NS",
+      "titre": "Enquête Vaccin Ebola Guinée 2015",
+      "dateDeParution": "05/08/2018",
+      "description": "Introduction : En 2014-2016, une épidémie de virus Ebola a dévasté la Guinée ; plus de 3 800 cas et 2 500 décès ont été signalés à l’ Organisation Mondiale de la Santé."
+    },
+    {
+      "id": "1611182NS",
+      "titre": "L’OOAS (WAHO)",
+      "dateDeParution": "19/07/2018",
+      "description": "Atelier de renforcement des capacités des administrateurs des bases de données nationales en cours à Accra."
+    }
+  ],
+  "venueByActes": [
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    },
+    {
+      "idVenue": "",
+      "idActes": ""
+    }
+  ]
+}

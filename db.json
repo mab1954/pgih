@@ -2,6 +2,7 @@
   "consultations": [
     {
       "prenom": "Abdou",
+      "motif": "Ouf de ouf",
       "nom": "BAH",
       "sexe": "M",
       "age": "22",
@@ -9,6 +10,7 @@
     },
     {
       "prenom": "Abdoula",
+      "motif": "Ouf de ouf",
       "nom": "Ly",
       "sexe": "F",
       "age": "25",
@@ -16,6 +18,7 @@
     },
     {
       "prenom": "Tooto",
+      "motif": "Ouf de ouf",
       "nom": "ATat",
       "sexe": "M",
       "age": "22",

@@ -9,6 +9,8 @@
     "api": "npx json-server --watch -p 3001 db.json"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
     "@windmill/react-ui": "^0.6.0",
     "chart.js": "^3.4.0",
     "next": "latest",

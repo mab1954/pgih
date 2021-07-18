@@ -1,0 +1,55 @@
+{
+    "venues" : [
+        {
+          "id": 0,
+          "nom": "BAH",
+          "prenom": "Abdoulaye",
+          "nomMarital": "",
+          "dateNaissance": "01/06/1992",
+          "sexe": "M",
+          "dateEntree": "12/01/2000",
+          "dateSortie": "12/01/2000"
+        },
+        {
+          "id": 1,      
+          "nom": "DIALLO",
+          "prenom": "Boubacar",
+          "nomMarital": "",
+          "dateNaissance": "01/06/1992",
+          "sexe": "M",
+          "dateEntree": "12/01/2000",
+          "dateSortie": "12/01/2000"
+        },
+        {
+          "id": 2,
+          "nom": "SOW",
+          "prenom": "Ibrahima",
+          "nomMarital": "",
+          "dateNaissance": "01/06/1992",
+          "sexe": "M",
+          "dateEntree": "12/01/2000",
+          "dateSortie": "12/01/2000"
+        },
+        {
+          "id": 3,
+          "nom": "WANN",
+          "prenom": "Alpha",
+          "nomMarital": "",
+          "dateNaissance": "01/06/1992",
+          "sexe": "M",
+          "dateEntree": "12/01/2000",
+          "dateSortie": "12/01/2000"
+        },
+        {
+          "id": 4,
+          "nom": "DIALLO",
+          "prenom": "Assiatou",
+          "nomMarital": "",
+          "dateNaissance": "01/06/1992",
+          "sexe": "F",
+          "dateEntree": "12/01/2000",
+          "dateSortie": "12/01/2000"
+        }
+      ]
+      
+}

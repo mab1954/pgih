@@ -11,24 +11,28 @@ export default function Venue({ venue }) {
 }
 
 export async function getStaticProps({ params }) {
-  const venue = await fetch(
-    `http://localhost:3001/venues/${params.id}`
-  ).then((response) => response.json());
+  let baseUrl = 'http://localhost:3000';
+  if(process.env.Vercel_URL) {
+    baseUrl = process.env.Vercel_URL;
+  }
+  const venue = await fetch(`${baseUrl}/api/venues/${params.id}`).then((res) => res.json());
   return {
     props: {
-      venue,
+      venue
     },
   };
 }
 
 export async function getStaticPaths() {
-  const venues = await fetch("http://localhost:3001/venues").then((response) =>
-    response.json()
-  );
+  let baseUrl = 'http://localhost:3000';
+  if(process.env.Vercel_URL) {
+    baseUrl = process.env.Vercel_URL;
+  }
+  const venues = await fetch(`${baseUrl}/api/venues`).then((res) => res.json());
   return {
     paths: venues.map((venue) => ({
-      params: { id: venue.id.toString() },
+      params: { id: venue.id.toString() }
     })),
-    fallback: false,
+    fallback: false
   };
 }

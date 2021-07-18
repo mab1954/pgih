@@ -11,7 +11,7 @@ export default function Venue({ venue }) {
 }
 
 export async function getStaticProps({ params }) {
-  let baseUrl = 'http://localhost:8080';
+  let baseUrl = 'https://pgih.herokuapp.com';
   if(process.env.Vercel_URL) {
     baseUrl = process.env.Vercel_URL;
   }
@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  let baseUrl = 'http://localhost:8080';
+  let baseUrl = 'https://pgih.herokuapp.com';
   if(process.env.Vercel_URL) {
     baseUrl = process.env.Vercel_URL;
   }

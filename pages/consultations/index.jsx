@@ -28,7 +28,7 @@ export default function({ consultations }) {
 }
 
 export async function getStaticProps() {
-  let baseUrl = 'http://localhost:8080';
+  let baseUrl = 'https://pgih.herokuapp.com';
   if(process.env.Vercel_URL) {
     baseUrl = process.env.Vercel_URL;
   }

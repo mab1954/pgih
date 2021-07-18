@@ -1,5 +1,4 @@
 import Link from "next/link";
-import StarBorderIcon from "@material-ui/icons/StarBorder";
 
 export default function({ actes }) {
   return (
@@ -45,9 +44,11 @@ export default function({ actes }) {
 }
 
 export async function getStaticProps() {
-  const actes = await fetch("http://localhost:3001/actes").then((response) =>
-    response.json()
-  );
+  let baseUrl = 'http://localhost:3000';
+  if(process.env.Vercel_URL) {
+    baseUrl = process.env.Vercel_URL;
+  }
+  const actes = await fetch(`${baseUrl}/api/actes`).then((res) => res.json());
   return {
     props: {
       actes,

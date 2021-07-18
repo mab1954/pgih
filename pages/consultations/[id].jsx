@@ -1,30 +1,30 @@
 import Link from "next/link";
 
 
-export default function Acte({ acte }) {
+export default function consultation({ consultation }) {
   return (
     <>
       <>
         <div className="bg-gray-500 p-10 mx-5 my-4 rounded items-center text-white">
-          <Link href="/actes">
+          <Link href="/consultations">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-              Retour vers les actes
+              Retour vers les consultations
             </button>
           </Link>
           <div className="flex flex-row">
             <div className="flex-none w-16 h-16 justify-center items-center">
-              Code
+              Nom
             </div>
             <div className="flex-grow flex-wrap h-16 text-white">
-              <h1>{acte.code}</h1>
+              <h1>{consultation.nom}</h1>
             </div>
           </div>
           <div className="flex flex-row">
             <div className="flex-none w-16 h-16 justify-center items-center">
-              Libelle
+              Prenom
             </div>
             <div className="flex-grow flex-wrap h-16 text-white">
-              <p>{acte.libelle}</p>
+              <p>{consultation.prenom}</p>
             </div>
           </div>
         </div>
@@ -38,10 +38,10 @@ export async function getStaticProps({ params }) {
   if(process.env.Vercel_URL) {
     baseUrl = process.env.Vercel_URL;
   }
-  const acte = await fetch(`${baseUrl}/api/actes/${params.id}`).then((res) => res.json());
+  const consultation = await fetch(`${baseUrl}/api/consultations/${params.id}`).then((res) => res.json());
   return {
     props: {
-      acte
+      consultation
     },
   };
 }
@@ -51,10 +51,10 @@ export async function getStaticPaths() {
   if(process.env.Vercel_URL) {
     baseUrl = process.env.Vercel_URL;
   }
-  const actes = await fetch(`${baseUrl}/api/actes`).then((res) => res.json());
+  const consultations = await fetch(`${baseUrl}/api/consultations`).then((res) => res.json());
   return {
-    paths: actes.map((acte) => ({
-      params: { id: acte.id.toString() }
+    paths: consultations.map((consultation) => ({
+      params: { id: consultation.id.toString() }
     })),
     fallback: false
   };

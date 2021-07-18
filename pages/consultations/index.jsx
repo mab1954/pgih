@@ -28,11 +28,12 @@ export default function({ consultations }) {
 }
 
 export async function getStaticProps() {
-  let baseUrl = 'http://localhost:3000';
+  let baseUrl = 'http://localhost:8080';
   if(process.env.Vercel_URL) {
     baseUrl = process.env.Vercel_URL;
   }
   const consultations = await fetch(`${baseUrl}/api/consultations`).then((res) => res.json());
+  
   return {
     props: {
       consultations,

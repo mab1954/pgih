@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "api": "npx json-server --watch -p 3001 db.json"
+    "start": "next start"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.1",

@@ -38,6 +38,7 @@ export async function getStaticProps() {
   if(process.env.Vercel_URL) {
     baseUrl = process.env.Vercel_URL;
   }
+  console.log(baseUrl);
   const venues = await fetch(`${baseUrl}/api/venues`).then((res) => res.json());
   return {
     props: {

@@ -56,12 +56,7 @@ export default function Header({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto mt-2 p-4">
-              <li className="nav-item mt-4">
-                <Link href="/consultation">
-                  <button className="px-8 text-white">Consultation</button>
-                </Link>
-              </li>
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto mt-2 p-4">              
 
               <li className="nav-item  mt-4">
                 <a
